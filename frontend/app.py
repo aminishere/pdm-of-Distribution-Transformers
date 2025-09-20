@@ -28,7 +28,7 @@ st.markdown(
 
 # loading the saved models
 
-model = pickle.load(open("rf.pkl", 'rb'))
+model = pickle.load(open("../model/rf.pkl", 'rb'))
 
 
 # sidebar for navigation
